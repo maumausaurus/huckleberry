@@ -24,18 +24,16 @@ strong {
 .max-width-wrapper {
   margin: 0, auto;
   max-width: 800px;
+  padding: 0px 32px;
 }
 
 .indented-heading{
   display: inline-block;
-  width:max-content;
-  height: 48px;
-  margin-left: -24px;
-  margin-top: 8px;
+  width: fit-content;
+  margin-left: -12px;
+  padding : 16px 24px;
   background-color:hsl(45deg, 100%, 50%);
-  border-bottom-style: solid;
-  border-bottom-color: hsl(45deg, 100%, 40%);
-  border-bottom-width: 4px;
+  border-bottom: solid 4px hsl(45deg, 100%, 40%);
 }
 
 .max-width-wrapper .intro-chunk {
@@ -46,7 +44,8 @@ strong {
 
 main {
   background-color: hsl(0deg, 0%, 60%);
-  padding: 24px;
+  border-top: solid 4px hsl(0deg, 0%, 20%);
+  padding: 48px 0;
 }
 
 .intro-chunk{
@@ -64,20 +63,16 @@ main {
 
 .intro-chunk p {
   max-width: 300px;
+  margin-bottom: 48px;
 }
 
 .card {
   background-color: white;
   width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 48px;
-  border-bottom-style: solid, 16px, hsl(0deg, 0%, 10%);
-  border-bottom-style: solid;
-  border-bottom-color: hsl(0deg, 0%, 30%);
-  border-bottom-width: 4px;
+  margin: 48px auto;
+  border-bottom: solid 4px hsl(0deg, 0%, 30%);
 }
 
 .card p {
-  padding-left : 16px;
+  padding : 16px;
 }
