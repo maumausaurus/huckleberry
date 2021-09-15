@@ -3,10 +3,75 @@
   font-family: 'Lato', sans-serif;
 }
 
-html,
+html {
+  height: 100%;
+  font-size: 1.125rem;
+}
 body {
-  margin: 0;
   padding: 0;
+  margin :0;
 }
 
-/* Add styles here! */
+h1 {
+  font-size: 2rem;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%)
+
+}
+
+.max-width-wrapper {
+  margin: 0, auto;
+  max-width: 800px;
+}
+
+.indented-heading{
+  display: inline-block;
+  width:max-content;
+  height: 48px;
+  margin-left: -36px;
+  margin-top: 8px;
+  background-color:hsl(45deg, 100%, 50%);
+  border-bottom-style: solid;
+  border-bottom-color: hsl(45deg, 100%, 40%);
+  border-bottom-width: 4px;
+}
+
+.max-width-wrapper .intro-chunk {
+  background-color: white;
+  margin: 0, auto;
+  width : 100%;
+}
+
+.intro-chunk{
+  background-color: white;
+  display : block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  padding-top: 48px;
+  max-width: 500px;
+}
+
+.intro-chunk .title {
+  margin-bottom: 32px;
+}
+
+.intro-chunk p {
+  max-width: 300px;
+}
+
+.card {
+  background-color: white;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  border-bottom-style: solid, 16px, hsl(0deg, 0%, 10%);
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom-style: solid;
+  border-bottom-color: hsl(0deg, 0%, 30%);
+  border-bottom-width: 4px;
+}
